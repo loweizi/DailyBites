@@ -1,9 +1,5 @@
-//
-//  Daily_BitesApp.swift
-//  Daily_Bites
-//
-//  Created by Ivy Lo on 11/29/24.
-//
+//for my web api call i have 17 calls that are avaliable to use on the acc i registered as, if that runs out
+//i've provided another api key that gives it 50 more calls if needed in restuarant view model
 
 import SwiftUI
 
@@ -11,10 +7,13 @@ import SwiftUI
 struct Daily_BitesApp: App {
     let persistenceController = PersistenceController.shared
 
+    //start at home view
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+

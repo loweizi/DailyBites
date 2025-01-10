@@ -8,21 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		AF41E6832CFA96060016E13D /* Daily_BitesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6822CFA96060016E13D /* Daily_BitesApp.swift */; };
-		AF41E6852CFA96060016E13D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6842CFA96060016E13D /* ContentView.swift */; };
+		AF41E6852CFA96060016E13D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6842CFA96060016E13D /* HomeView.swift */; };
 		AF41E6872CFA96080016E13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41E6862CFA96080016E13D /* Assets.xcassets */; };
 		AF41E68A2CFA96080016E13D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF41E6892CFA96080016E13D /* Preview Assets.xcassets */; };
 		AF41E68C2CFA96080016E13D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E68B2CFA96080016E13D /* Persistence.swift */; };
 		AF41E68F2CFA96080016E13D /* Daily_Bites.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF41E68D2CFA96080016E13D /* Daily_Bites.xcdatamodeld */; };
+		AF41E6962CFA99780016E13D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6952CFA99780016E13D /* ProfileViewModel.swift */; };
+		AF41E6982CFA998F0016E13D /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6972CFA998F0016E13D /* JournalViewModel.swift */; };
+		AF41E69A2CFA99A20016E13D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6992CFA99A20016E13D /* SignUpView.swift */; };
+		AF41E69C2CFA99B40016E13D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E69B2CFA99B40016E13D /* LoginView.swift */; };
+		AF41E69E2CFA99EA0016E13D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E69D2CFA99EA0016E13D /* ProfileView.swift */; };
+		AF41E6A02CFA9A070016E13D /* EntryDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E69F2CFA9A070016E13D /* EntryDetailedView.swift */; };
+		AF41E6A22CFA9A220016E13D /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6A12CFA9A220016E13D /* AddEntryView.swift */; };
+		AF41E6A52CFAAB7E0016E13D /* UserProfile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6A32CFAAB7E0016E13D /* UserProfile+CoreDataClass.swift */; };
+		AF41E6A62CFAAB7E0016E13D /* UserProfile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6A42CFAAB7E0016E13D /* UserProfile+CoreDataProperties.swift */; };
+		AF41E6A92CFAACA00016E13D /* JournalEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6A72CFAACA00016E13D /* JournalEntry+CoreDataClass.swift */; };
+		AF41E6AA2CFAACA00016E13D /* JournalEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6A82CFAACA00016E13D /* JournalEntry+CoreDataProperties.swift */; };
+		AF41E6AC2CFB03740016E13D /* RestaurantSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6AB2CFB03740016E13D /* RestaurantSearchView.swift */; };
+		AF41E6AE2CFB03970016E13D /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6AD2CFB03970016E13D /* RestaurantViewModel.swift */; };
+		AF41E6B02CFB03BA0016E13D /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF41E6AF2CFB03BA0016E13D /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF41E67F2CFA96060016E13D /* Daily_Bites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daily_Bites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF41E6822CFA96060016E13D /* Daily_BitesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_BitesApp.swift; sourceTree = "<group>"; };
-		AF41E6842CFA96060016E13D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF41E6842CFA96060016E13D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		AF41E6862CFA96080016E13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF41E6892CFA96080016E13D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AF41E68B2CFA96080016E13D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AF41E68E2CFA96080016E13D /* Daily_Bites.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daily_Bites.xcdatamodel; sourceTree = "<group>"; };
+		AF41E6952CFA99780016E13D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		AF41E6972CFA998F0016E13D /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		AF41E6992CFA99A20016E13D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		AF41E69B2CFA99B40016E13D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AF41E69D2CFA99EA0016E13D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AF41E69F2CFA9A070016E13D /* EntryDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailedView.swift; sourceTree = "<group>"; };
+		AF41E6A12CFA9A220016E13D /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		AF41E6A32CFAAB7E0016E13D /* UserProfile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AF41E6A42CFAAB7E0016E13D /* UserProfile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserProfile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF41E6A72CFAACA00016E13D /* JournalEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AF41E6A82CFAACA00016E13D /* JournalEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AF41E6AB2CFB03740016E13D /* RestaurantSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSearchView.swift; sourceTree = "<group>"; };
+		AF41E6AD2CFB03970016E13D /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		AF41E6AF2CFB03BA0016E13D /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +67,10 @@
 		AF41E6762CFA96060016E13D = {
 			isa = PBXGroup;
 			children = (
+				AF41E6A72CFAACA00016E13D /* JournalEntry+CoreDataClass.swift */,
+				AF41E6A82CFAACA00016E13D /* JournalEntry+CoreDataProperties.swift */,
+				AF41E6A32CFAAB7E0016E13D /* UserProfile+CoreDataClass.swift */,
+				AF41E6A42CFAAB7E0016E13D /* UserProfile+CoreDataProperties.swift */,
 				AF41E6812CFA96060016E13D /* Daily_Bites */,
 				AF41E6802CFA96060016E13D /* Products */,
 			);
@@ -56,9 +88,19 @@
 			isa = PBXGroup;
 			children = (
 				AF41E6822CFA96060016E13D /* Daily_BitesApp.swift */,
-				AF41E6842CFA96060016E13D /* ContentView.swift */,
-				AF41E6862CFA96080016E13D /* Assets.xcassets */,
+				AF41E6AF2CFB03BA0016E13D /* Restaurant.swift */,
+				AF41E6952CFA99780016E13D /* ProfileViewModel.swift */,
+				AF41E6972CFA998F0016E13D /* JournalViewModel.swift */,
+				AF41E6AD2CFB03970016E13D /* RestaurantViewModel.swift */,
+				AF41E6842CFA96060016E13D /* HomeView.swift */,
+				AF41E6992CFA99A20016E13D /* SignUpView.swift */,
+				AF41E69B2CFA99B40016E13D /* LoginView.swift */,
+				AF41E69D2CFA99EA0016E13D /* ProfileView.swift */,
+				AF41E69F2CFA9A070016E13D /* EntryDetailedView.swift */,
+				AF41E6A12CFA9A220016E13D /* AddEntryView.swift */,
+				AF41E6AB2CFB03740016E13D /* RestaurantSearchView.swift */,
 				AF41E68B2CFA96080016E13D /* Persistence.swift */,
+				AF41E6862CFA96080016E13D /* Assets.xcassets */,
 				AF41E68D2CFA96080016E13D /* Daily_Bites.xcdatamodeld */,
 				AF41E6882CFA96080016E13D /* Preview Content */,
 			);
@@ -143,10 +185,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF41E6982CFA998F0016E13D /* JournalViewModel.swift in Sources */,
+				AF41E69E2CFA99EA0016E13D /* ProfileView.swift in Sources */,
+				AF41E6A92CFAACA00016E13D /* JournalEntry+CoreDataClass.swift in Sources */,
+				AF41E6AA2CFAACA00016E13D /* JournalEntry+CoreDataProperties.swift in Sources */,
 				AF41E68C2CFA96080016E13D /* Persistence.swift in Sources */,
 				AF41E68F2CFA96080016E13D /* Daily_Bites.xcdatamodeld in Sources */,
-				AF41E6852CFA96060016E13D /* ContentView.swift in Sources */,
+				AF41E6A52CFAAB7E0016E13D /* UserProfile+CoreDataClass.swift in Sources */,
+				AF41E6A62CFAAB7E0016E13D /* UserProfile+CoreDataProperties.swift in Sources */,
+				AF41E6B02CFB03BA0016E13D /* Restaurant.swift in Sources */,
+				AF41E69A2CFA99A20016E13D /* SignUpView.swift in Sources */,
+				AF41E6A02CFA9A070016E13D /* EntryDetailedView.swift in Sources */,
+				AF41E6852CFA96060016E13D /* HomeView.swift in Sources */,
 				AF41E6832CFA96060016E13D /* Daily_BitesApp.swift in Sources */,
+				AF41E6A22CFA9A220016E13D /* AddEntryView.swift in Sources */,
+				AF41E69C2CFA99B40016E13D /* LoginView.swift in Sources */,
+				AF41E6962CFA99780016E13D /* ProfileViewModel.swift in Sources */,
+				AF41E6AC2CFB03740016E13D /* RestaurantSearchView.swift in Sources */,
+				AF41E6AE2CFB03970016E13D /* RestaurantViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
